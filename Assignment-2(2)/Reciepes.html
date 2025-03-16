@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+</head>
+<style>
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #e6e6e6;
+    text-align: center;
+    padding: 40px;
+    font-size: 26px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Recipe Section */
+#recipes {
+    text-align: center;
+    padding: 30px;
+    background: #fafafa;
+}
+
+#recipes h2 {
+    color: #444;
+}
+
+#recipes button {
+    background: #d4e6a5;
+    color: #333;
+    padding: 10px 15px;
+    border: 1px solid #bbb;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#recipes button:hover {
+    background: #c5d89d;
+}
+
+/* Categories Section */
+#categories {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 30px;
+}
+
+#categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+#categories ul li {
+    margin: 10px 0;
+}
+
+#categories a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 30px;
+    background: #fafafa;
+}
+
+#contact h2 {
+    color: #444;
+}
+
+#contact input, #contact textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#contact button {
+    background: #aac4ff;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #888;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact button:hover {
+    background: #99b3e6;
+}
+
+/* Footer */
+footer {
+    background: #e0e0e0;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+</style> 
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Delicious Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Submit Your Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Recipe Section -->
+    <section id="recipes">
+        <h2>Our Best Recipes</h2>
+        <button onclick="location.href='recipe1.html'">Pasta</button>
+        <button onclick="location.href='recipe2.html'">Pizza</button>
+        <button onclick="location.href='recipe3.html'">Chocolate Cake</button>
+        <button onclick="location.href='recipe4.html'">Salad</button>
+        <button onclick="location.href='recipe5.html'">Burger</button>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+        <h2>Recipe Categories</h2>
+        <ul>
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Desserts</a></li>
+            <li><a href="#">Healthy Snacks</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Submit Your Own Recipe</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Recipe Details" rows="4" required></textarea>
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Recipe World. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
